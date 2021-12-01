@@ -1,0 +1,3 @@
+*.beam
+*.in
+erl_crash.dump
