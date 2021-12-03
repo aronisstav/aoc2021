@@ -97,6 +97,6 @@ filter(Array, Mode, Pos) ->
 label(Array, Pos) ->
   Fold =
     fun(Line, Acc) ->
-        Acc ++ [{lists:nth(Pos, Line), Line}]
+        [{lists:nth(Pos, Line), Line}|Acc]
     end,
-  lists:foldl(Fold, [], Array).
+  lists:foldr(Fold, [], Array).
