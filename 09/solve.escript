@@ -1,6 +1,6 @@
 #!/usr/bin/env escript
 
-%% https://adventofcode.com/2021/day/8
+%% https://adventofcode.com/2021/day/9
 
 -mode(compile).
 
